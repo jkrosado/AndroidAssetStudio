@@ -18,7 +18,7 @@ import $ from 'jquery';
 
 import * as studio from './studio';
 
-const DENSITIES = new Set(['xxxhdpi', 'xxhdpi', 'xhdpi', 'hdpi', 'mdpi']);
+const DENSITIES = new Set(['uhdpi', 'xxxhdpi', 'xxhdpi', 'xhdpi', 'hdpi', 'mdpi']);
 const REGENERATE_DEBOUNCE_TIME = 200;
 
 const DEFAULT_VISIBLE_SLOT = 'xxxhdpi';
