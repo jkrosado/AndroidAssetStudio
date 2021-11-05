@@ -43,7 +43,7 @@ const DEFAULT_EFFECT_OPTIONS = [
 
 export class LauncherIconGenerator extends BaseGenerator {
   get densities() {
-    return new Set(['xxxhdpi', 'xxhdpi', 'xhdpi', 'hdpi', 'mdpi']);
+    return new Set(['uhdpi', 'xxxhdpi', 'xxhdpi', 'xhdpi', 'hdpi', 'mdpi']);
   }
 
   get outputSlots() {
