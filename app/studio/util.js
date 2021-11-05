@@ -19,6 +19,7 @@ import $ from 'jquery';
 export const Util = {
   getMultBaseMdpi(density) {
     switch (density) {
+      case   'uhdpi': return 6.00;
       case 'xxxhdpi': return 4.00;
       case  'xxhdpi': return 3.00;
       case   'xhdpi': return 2.00;
@@ -32,6 +33,7 @@ export const Util = {
 
   getDpiForDensity(density) {
     switch (density) {
+      case   'uhdpi': return 960;
       case 'xxxhdpi': return 640;
       case  'xxhdpi': return 480;
       case   'xhdpi': return 320;
